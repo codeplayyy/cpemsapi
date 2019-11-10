@@ -1,0 +1,23 @@
+{
+  "name": "cpemsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Shivam Pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeplayyy/cpemsapi/issues"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "mongoose": "^5.7.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.2"
+  }
+}

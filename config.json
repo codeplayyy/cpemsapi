@@ -1,0 +1,18 @@
+{
+    "app": {
+        "port": 96
+    },
+    "mongo": {
+        "url": "mongodb://localhost/cpems",
+        "test": "mongodb://localhost/test"
+    },
+    "jwt": {
+        "key": "bitchbetterhavemymoney",
+        "options": {
+            "algorithm": "HS256"
+        }
+    },
+    "error": {
+        "ise": "Oh Snap! We pride ourselves on meeting expectations, so to make it upto you we are here"
+    }
+}
