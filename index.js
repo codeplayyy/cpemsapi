@@ -25,10 +25,13 @@ process.on('SIGINT', function () {
 });
 
 const server = new ApolloServer({
-    modules: [],
+    modules: [
+        require('./api/organistaion'),
+    ],
 
     formatError: (error) => {
         // Implement error logging here
+        console.error(error);
 
         return {
             message: config.error.ise,

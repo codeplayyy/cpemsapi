@@ -1,6 +1,6 @@
 {
     "app": {
-        "port": 96
+        "port": 9600
     },
     "mongo": {
         "url": "mongodb://localhost/cpems",
